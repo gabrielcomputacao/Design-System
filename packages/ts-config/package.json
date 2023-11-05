@@ -1,0 +1,9 @@
+{
+  "name": "@ignite-ui/ts-config",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "license": "ISC"
+}
