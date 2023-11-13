@@ -8,6 +8,29 @@ export default {
   args: {
     children:
       "Testando esse componente que é um text. Escrenveod qualquer coisa rapidamente para ver a digitação como esta",
+    size: "md",
+  },
+  argTypes: {
+    size: {
+      options: [
+        "xxs",
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "2xl",
+        "4xl",
+        "5xl",
+        "6xl",
+        "7xl",
+        "8xl",
+        "9xl",
+      ],
+      control: {
+        type: "inline-radio",
+      },
+    },
   },
 } as Meta<TextProps>;
 
