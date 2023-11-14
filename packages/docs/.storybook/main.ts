@@ -24,5 +24,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
+  core: {
+    builder: "@storybook/builder-vite",
+  },
+  features: {
+    storyStoreV7: true,
+  },
 };
 export default config;
