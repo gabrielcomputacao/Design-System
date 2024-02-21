@@ -1,1 +1,6 @@
-Criação de projeto criando um design system especifico para posteriormente usar em outros projetos
+
+Implementando Design System com publicação usando CI/CD
+
+Construção de MonoRepo, usando turboRepo, changesets.
+
+Documentação com StoryBook
